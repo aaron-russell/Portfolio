@@ -1,11 +1,22 @@
 <!doctype html>
-<html>
+<!--[if lt IE 7]>
+  <html class="no-js lt-ie9 lt-ie8 lt-ie7">
+<![endif]-->
+<!--[if IE 7]>
+  <html class="no-js lt-ie9 lt-ie8">
+<![endif]-->
+<!--[if IE 8]>
+  <html class="no-js lt-ie9">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+  <html class="no-js">
+<!--<![endif]-->
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Web Starter Kit</title>
+    <title>Aaron Russell - Web Developer</title>
 
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
@@ -29,13 +40,14 @@
     <link rel="stylesheet" href="styles/h5bp.css">
     <link rel="stylesheet" href="styles/components/components.css">
     <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/modernizr.js"></script><script src="scripts/respond.js"></script>
     <!-- endbuild -->
   </head>
   <body>
     <header class="app-bar promote-layer">
       <div class="app-bar-container">
         <button class="menu"><img src="images/hamburger.svg" alt="Menu"></button>
-        <h1 class="logo">Web Starter Kit</h1>
+        <h1 class="logo">Aaron Russell</h1>
         <section class="app-bar-actions">
         <!-- Put App Bar Buttons Here -->
         </section>
@@ -45,18 +57,22 @@
     <nav class="navdrawer-container promote-layer">
       <h4>Navigation</h4>
       <ul>
-        <li><a href="#hello">Hello</a></li>
-        <li><a href="#get-started">Get Started</a></li>
-        <li><a href="styleguide/index.html">Style Guide</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact Me</a></li>
+        <li><a href="#">My CV</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">LinkedIn</a></li>
       </ul>
     </nav>
 
     <main>
-      <h1 id="hello">Hello!</h1>
-      <p>Welcome to Web Starter Kit.</p>
+      <h1 id="hello">Hello! I'm Aaron.</h1>
+      <p>And I want to welcome you to my wesbite, I am currently a placement student, both studying and working at the university of Huddersfield. I am currently the 'Web Assistant' in the Universities central web team.</p>
 
-      <h2 id="get-started">Get Started.</h2>
-      <p>Read how to <a href="http://developers.google.com/web/starter-kit">Get Started</a> or check out the <a href="styleguide/index.html">Style Guide</a>.</p>
+      <h2 id="get-started">My role</h2>
+      <p>I have worked on a large number of projects, even leading some major projects within the web team, these included items such as the Undergraduate GSI microsite and freelancing projects such as MT Windows.</p>
+      <p>My skillset is not limited to web development, I have a vast knowledge of the sector and have worked with many technologies and systems, as well as using industry standard programs and performing different roles such as GUI design and server managament. I have also used and administers various server both inside and outside the university.</p>
     </main>
 
     <!-- build:js scripts/main.min.js -->
